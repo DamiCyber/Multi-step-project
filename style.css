@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.all{
+  position: relative;
+}
+#card{
+  position: absolute;
+  border-radius: 10px;
+  left: 80%;
+  z-index: 111111;
+  background-color: white;
+  width: 250px;
+  height: 60px;
+}
+.moveme{
+  margin-top: 20px;
+  margin-left: 55px;
+}
+body {
+  background-color: hsl(206, 94%, 87%);
+}
+.body2 {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-left: 290px;
+  margin-top: 80px;
+  height: 500px;
+  width: 800px;
+  background-color: white;
+}
+.boxbaby svg {
+  margin-top: 11px;
+}
+.small {
+  width: 100%;
+  font-size: 15px;
+}
+.info {
+  width: 500px;
+  line-height: 35px;
+  margin-top: 30px;
+  padding-right: 90px;
+  padding-bottom: 30px;
+}
+h1 {
+  color: hsl(213, 96%, 18%);
+}
+.email {
+  width: 390px;
+  height: 35px;
+}
+.email-info {
+  padding-left: 65px;
+}
+input {
+  border-radius: 7px;
+
+}
+input::placeholder{
+ padding-left: 10px;
+}
+label{
+    font-size: 14px;
+    font-weight: 600;
+}
+.name {
+  padding-bottom: 30px;
+}
+.phone {
+  padding-top: 30px;
+}
+.next-step {
+  padding-top: 40px;
+  padding-left: 350px;
+}
+.next-step {
+  text-decoration: none;
+}
+.stepper {
+  margin-left: -70px;
+  background-color: hsl(213, 96%, 18%);
+  width: 110px;
+  cursor: pointer;
+  height: 43px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.col{
+  display: flex;
+}
+#error{
+    margin-left: 200px;
+}
+#err{
+    margin-left: 140px;
+}
+#errs{
+    margin-left: 140px;
+}

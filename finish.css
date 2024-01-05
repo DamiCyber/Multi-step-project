@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(206, 94%, 87%);
+}
+.body2{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: 290px;
+    margin-top: 80px;
+    height: 500px;
+    width: 800px;
+    background-color: white;
+}
+.boxbaby svg{
+    margin-top:11px;
+}
+.info{
+    width: 500px;
+    line-height: 35px;
+    margin-top: 30px;
+    padding-right: 90px;
+    padding-bottom: 30px;
+}
+h1{
+    color:hsl(213, 96%, 18%); 
+}
+
+.pick{
+    padding-left: 65px;
+}
+.check{
+    width: 400px;
+    border: 1px solid hsl(243, 100%, 62%);
+    display: flex;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 20px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.cover1{
+    padding-bottom: 20px;
+}
+.cover2{
+    padding-bottom: 20px;
+}
+.cover3{
+    padding-bottom: 20px;
+}
+.check2{
+    width: 400px;
+    border: 1px solid hsl(243, 100%, 62%);
+    display: flex;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 20px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.check3{
+    width: 400px;
+    border: 1px solid hsl(243, 100%, 62%);
+    display: flex;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 20px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+
+.next-step{
+    /* padding-top: 385px; */
+    padding-left: 35px;
+}
+.next-step a{
+    text-decoration: none;
+    color: white;
+}
+h4{
+    color: hsl(213, 96%, 18%);
+}
+h5{
+    color:#c0c0c0 ;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bore{
+    width: 90%;
+    border: 1px solid #c0c0c0 ;
+    margin-left: 3%;
+}
+.box2{
+    height: 28vh;
+    border-radius: 10px;
+    background-color: #e8e5e5;
+}
+
+.arc{
+    line-height: 25px;
+}
+.stepper{
+    background-color:hsl(243, 100%, 62%) ;
+    width: 110px;
+    height: 43px;
+    border: none;
+    border-radius: 10px;
+}
+.control{
+    flex-direction: row-reverse;
+padding-top: 80px;
+display: flex;
+align-items: center;
+padding-right: 40px;
+justify-content: space-around;
+}
+.dollar{
+    color:hsl(243, 100%, 62%) ;
+}
+.back a{
+    text-decoration: none;
+    color: #bdbdbd;
+}
