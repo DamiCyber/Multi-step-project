@@ -183,3 +183,37 @@ input:checked + .slider:before {
 .blue {
   color: hsl(213, 96%, 18%);
 }
+
+.numbers {
+  position: absolute;
+  top: 20%;
+  right: 64%;
+  display: flex;
+  gap: 20px;
+}
+.numb h3 {
+  color: white;
+  width: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+.plans p {
+  font-size: 14px;
+  padding-bottom: 3px;
+  color: #ccc;
+}
+.plans h3 {
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 24px;
+}
+.colo{
+  color:black !important;
+  border: 1px solid hsl(206, 94%, 87%) !important;
+    background-color: hsl(206, 94%, 87%);
+}

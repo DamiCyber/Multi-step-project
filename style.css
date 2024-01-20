@@ -3,10 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-.all{
+.all {
   position: relative;
 }
-#card{
+#card {
   position: absolute;
   border-radius: 10px;
   left: 80%;
@@ -15,7 +15,7 @@
   width: 250px;
   height: 60px;
 }
-.moveme{
+.moveme {
   margin-top: 20px;
   margin-left: 55px;
 }
@@ -31,6 +31,9 @@ body {
   height: 500px;
   width: 800px;
   background-color: white;
+}
+.box {
+  position: relative;
 }
 .boxbaby svg {
   margin-top: 11px;
@@ -58,14 +61,13 @@ h1 {
 }
 input {
   border-radius: 7px;
-
 }
-input::placeholder{
- padding-left: 10px;
+input::placeholder {
+  padding-left: 10px;
 }
-label{
-    font-size: 14px;
-    font-weight: 600;
+label {
+  font-size: 14px;
+  font-weight: 600;
 }
 .name {
   padding-bottom: 30px;
@@ -90,15 +92,48 @@ label{
   color: white;
   border-radius: 10px;
 }
-.col{
+.col {
   display: flex;
 }
-#error{
-    margin-left: 200px;
+#error {
+  margin-left: 200px;
 }
-#err{
-    margin-left: 140px;
+#err {
+  margin-left: 140px;
 }
-#errs{
-    margin-left: 140px;
+#errs {
+  margin-left: 140px;
+}
+.numbers {
+  position: absolute;
+  top: 20%;
+  right: 64%;
+  display: flex;
+  gap: 15px;
+}
+.numb h3 {
+  color: white;
+  width: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+.plans p {
+  font-size: 14px;
+  padding-bottom: 3px;
+  color: #ccc;
+}
+.plans h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.colo{
+  color:black !important;
+  border: 1px solid hsl(206, 94%, 87%) !important;
+    background-color: hsl(206, 94%, 87%);
 }
